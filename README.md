@@ -1,3 +1,4 @@
+# Real-Time Multi-Player Quiz Game
 This project introduces an intricately designed multiplayer quiz game using Python, featuring a diverse array of functionalities for an immersive user experience. The game incorporates multiple question genres, an authentication system, question-specific timers, a results page, and in-depth tracking of correct and incorrect answers.
 
 Built on Python, the game leverages well-established libraries like Flask for web development and Socket.IO for seamless real-time communication among players. The authentication page ensures a secure entry point, enabling players to either create accounts or securely log in.
@@ -11,3 +12,20 @@ Upon completing the quiz, players are redirected to a results page offering a co
 Moreover, the game incorporates a leaderboard, showcasing the scores of all players actively participating in the multiplayer session. This feature fosters healthy competition and motivates players to aim for the top spot on the leaderboard.
 
 To summarize, the Comprehensive Multi-Genre Multiplayer Quiz Game in Python provides a captivating and educational experience. By integrating a variety of questions, secure authentication, timed challenges, and detailed performance insights, the game aims to engage users with different interests and skill levels in a dynamic multiplayer gaming environment.
+
+# Technologies Used
+Python 3 – Core language used for developing both server and client components.
+
+TCP (Transmission Control Protocol) – Ensures reliable, ordered, and error-checked delivery of messages between client and server.
+
+Socket Programming – Facilitates real-time communication using TCP sockets.
+
+Tkinter – Provides a graphical user interface (GUI) for the client application.
+
+Pandas – Handles data operations and reads question sets from Excel files.
+
+OpenPyXL – Enables reading and writing of .xlsx Excel files used for quiz questions.
+
+Threading – Allows the server to handle multiple client connections simultaneously.
+
+File Handling – Reads and validates login credentials from Credentials.txt.
