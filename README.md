@@ -1,4 +1,4 @@
-his project introduces an intricately designed multiplayer quiz game using Python, featuring a diverse array of functionalities for an immersive user experience. The game incorporates multiple question genres, an authentication system, question-specific timers, a results page, and in-depth tracking of correct and incorrect answers.
+This project introduces an intricately designed multiplayer quiz game using Python, featuring a diverse array of functionalities for an immersive user experience. The game incorporates multiple question genres, an authentication system, question-specific timers, a results page, and in-depth tracking of correct and incorrect answers.
 
 Built on Python, the game leverages well-established libraries like Flask for web development and Socket.IO for seamless real-time communication among players. The authentication page ensures a secure entry point, enabling players to either create accounts or securely log in.
 
